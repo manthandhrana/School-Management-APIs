@@ -40,6 +40,8 @@ Returns a list of nearby schools with distance.
 ```http
 GET http://localhost:3306/listSchools?latitude=22.2913135&longitude=70.7772998
 ```
+![image](https://github.com/user-attachments/assets/3b145a9d-de8c-4597-8f58-3c2c3963330d)
+
 ## Response
 
 ```json
@@ -53,7 +55,7 @@ GET http://localhost:3306/listSchools?latitude=22.2913135&longitude=70.7772998
     "distance": "distance"
   }
 ]
-
+```
 
 ### `POST /addSchool`
 
@@ -70,11 +72,15 @@ Adds a new school to the database.
 }
 ```
 
-#### **Response Body**:
+## **Response Body**:
 
-```json
-{ message: 'School added successfully' }
-```
+  ```
+  {
+     message: 'School added successfully'
+  }
+  ```
+![image](https://github.com/user-attachments/assets/0e7c7177-fb0c-4255-a27a-626d7b51a748)
+
 ---
 
 ## 🧑‍💻 Local Testing Setup
